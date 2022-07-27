@@ -1,0 +1,86 @@
+
+.progress {
+    border-radius: 1rem !important;
+}
+
+.box-full {
+    border: 1px solid #ECEEEF;
+    background: $white;
+}
+
+.box-full-2 {
+    border: 1px solid #ECEEEF;
+    background: #FBFBFB;
+    font-size: 16px;
+    line-height: 29px;
+    display: flex;
+    color: $light-black;
+}
+
+.btn-primary {
+    background: $primary-color;
+    border: none !important;
+}
+
+.section-1 {
+    background: #f5f5f5;
+}
+
+.vatality-drive {
+    color: $silver;
+}
+
+.visit {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $silver;
+}
+.gray {
+    color: $color-gray;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.light-gray {
+    color: $color-light-gray;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.dark-gray {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    color: $color-dark-gray;
+
+}
+
+.bg-primary {
+    background: #013D72 !important;
+}
+
+.total {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $color-dark-gray;
+}
+
+#round {
+    padding: 6px;
+    font-size: 14px !important;
+    width: 35px !important;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+
+    .fa-chevron-right {
+        background: $white;
+        color: #013D72 !important;
+    }
+    
+}
+

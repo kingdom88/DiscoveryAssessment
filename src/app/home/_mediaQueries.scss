@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1189px) {
+    .container-toolbox {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .move-right {
+      float: left !important;
+      width: 100%
+    }
+
+    .be-visible {
+      display:block;
+    }
+  
+    .container-wrapper {
+      width: 100% !important;
+    }
+  
+    .cars {
+      display: inline;
+    }
+  
+    .go-away {
+      display: none;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 614px) {
+    .sensor {
+      margin-top: 0.5rem;
+    }
+  
+    .h2,
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .learn-more {
+      justify-content: center !important;
+    }
+  
+    .visit-text {
+      text-align: center;
+    }
+  
+    .driving-behavioral {
+      font-size: 20px;
+  
+    }
+  
+    .driving-behavioral-score {
+      font-size: 22px;
+      padding-left: 4.5rem !important;
+      padding-right: 4.5rem !important;
+    }
+  }

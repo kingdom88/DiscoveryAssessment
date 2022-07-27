@@ -1,0 +1,141 @@
+.progress {
+    border-radius: 1rem !important;
+  
+    .blue-gradient {
+      background: $bluish;
+    }
+  
+    .bronze-gradient {
+      background: $bronze;
+    }
+  
+    .silver-gradient {
+      background: $silverish;
+    }
+  
+    .gold-gradient {
+      background: $gold
+    }
+  
+    .diamond-gradient {
+      background: $star;
+    }
+  
+    .bg-success {
+      background: $navy;
+    }
+  
+    .bg-danger {
+      background: $purple;
+    }
+  }
+  
+  .section-2 {
+  
+    background: $silver-gray;
+  }
+  
+  .visit {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $silver;
+  }
+  
+  
+  
+  .far-right {
+    justify-content: right;
+    display: flex;
+    align-items: right;
+  }
+  
+  .gray {
+    color: $color-gray;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .light-gray {
+    color: $color-light-gray;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .dark-gray {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    color: $color-dark-gray;
+  
+  }
+  
+
+  .car-bg {
+    // background: $diamond;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(90deg, #949494 0.86%, #C3C3C3 100%);
+    border: 2px solid $white;
+    margin: 0 auto;
+  
+    .car {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  .points200 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $color-dark-gray;
+  
+  }
+  
+  .move-right {
+    float: right;
+  }
+  
+  .card1-blue {
+    background: $sky-blue;
+  }
+  
+  .card2-grey {
+    background: $smoke;
+  }
+  
+  .container-wrapper {
+    width: 80% !important;
+    margin: 0 auto;
+  
+    .total {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 28px;
+      color: $color-dark-gray;
+    }
+  
+  }
+  
+  .driving-profile {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: right;
+    color: #0D171E;
+  }
+  
+  .cars {
+    display: none;
+  }
+  
+  .view-drive-partners {
+    float: right;
+    font-size: 13px;
+    border-radius: 2px;
+    padding: 10px;
+  }

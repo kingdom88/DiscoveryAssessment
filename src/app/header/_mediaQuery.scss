@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1189px) {
+    .container-toolbox {
+        width: 100%;
+    }
+    .navbar-nav .nav-link {
+        font-size: 12px;
+        margin:10px;
+    }
+}
+
+@media only screen and (max-width: 1059px) {
+    .navbar-nav .nav-link {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+}

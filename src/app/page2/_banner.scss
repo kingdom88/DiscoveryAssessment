@@ -1,0 +1,21 @@
+//banner
+.banner {
+    background-image: url(~src/assets/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 349.51px;
+
+
+    p {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 400;
+        font-size: 37px;
+        line-height: 50px;
+        color: $white;
+        text-align: center;
+    }
+}

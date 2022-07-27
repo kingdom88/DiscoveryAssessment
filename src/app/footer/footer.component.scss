@@ -1,0 +1,33 @@
+@import "./variables";
+
+
+@import './socialIcons';
+
+.bottom-footer {
+    background: $primary-color;
+}
+
+
+footer {
+    background: #EAECEF;
+
+    .footer-heading {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 29px;
+        color: $dark-gray;
+
+    }
+
+    select {
+        word-wrap: normal;
+        width: 70%;
+        padding: 7px;
+        background: $white;
+        border: 2px solid #E2E2E2;
+        border-radius: 1px;
+        color: $gray;
+    }
+}
+
+@import './mediaQueries'

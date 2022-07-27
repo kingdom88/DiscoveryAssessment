@@ -1,0 +1,139 @@
+.section-1 {
+    background: $smoke;
+  
+    .heading {
+      color: $silver;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 44px;
+  
+    }
+  }
+  
+  .h2-card-2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 29px;
+    line-height: 39px;
+    color: $black;
+  }
+  
+  .card {
+  
+    border-radius: 4px;
+    border: 1px solid $cream;
+    background-color: $white;
+    padding: 16px;
+    margin: 0 8px 16px;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+  }
+  
+  .driving-behavioral {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: $silver;
+  }
+  
+  .driving-behavioral-score {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: right;
+    color: $silver;
+  }
+  
+  .px-6 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+  .btn-primary {
+    background: $primary-color;
+    border: none !important;
+  }
+  
+  .container-toolbox {
+    margin: 0 auto;
+    width: 80%;
+  
+    .card-1 {
+      border-radius: 4px;
+      border: 1px solid $cream;
+      background-color: $white;
+  
+      margin: 0 8px 16px;
+      padding: 16px;
+      display: block;
+      flex-direction: row;
+      transition: all 0.2s ease-in-out;
+      line-height: 24px;
+      border-left: 10px solid $orange;
+  
+      .learn-more {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 0px;
+        display: flex;
+        align-items: right;
+        justify-content: right;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #0E68BD;
+      }
+    }
+  
+    .card-2 {
+  
+      border-radius: 4px;
+      border: 1px solid $cream;
+      background-color: $white;
+  
+      margin: 0 8px 16px;
+      padding: 16px;
+      display: block;
+      flex-direction: row;
+      transition: all 0.2s ease-in-out;
+      line-height: 24px;
+    }
+  
+    .card-header {
+      border-bottom: 1px solid #ECEEEF;
+      padding: 0.75rem 1.25rem;
+      margin-bottom: 0;
+      background-color: $white;
+  
+    }
+  
+    .card-3 {
+      border-radius: 4px;
+      border: 1px solid $cream;
+      background-color: $white;
+      margin: 0 8px 16px;
+      display: block;
+      flex-direction: row;
+      transition: all 0.2s ease-in-out;
+      line-height: 24px;
+  
+    }
+  
+    .projected {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 28px;
+      color: $color-dark-gray;
+    }
+  
+    .fuel-price {
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 35px;
+      color: #0E68BD !important;
+    }
+  }
+  

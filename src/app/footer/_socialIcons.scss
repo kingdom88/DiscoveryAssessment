@@ -1,0 +1,37 @@
+#round {
+    padding: 10px;
+    font-size: 14px !important;
+    width: 35px !important;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.fa {
+    color: $white !important;
+}
+
+.fa-facebook {
+    background: $fb-bg;
+}
+
+.fa-linkedin {
+    background: $linkedin-bg;
+}
+
+.fa-twitter {
+    background: $twitter-bg;
+}
+
+.fa-youtube {
+    background: $youtube-bg ;
+}
+
+.fa-pinterest {
+    background: $pin-bg;
+}
+
+.fa-instagram {
+    background: $insta-bg;
+}

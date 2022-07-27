@@ -1,0 +1,31 @@
+// Media queries
+
+
+@media only screen and (max-width: 1189px) {
+    .container-toolbox {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .move-right {
+        float: left;
+        width: 100%
+    }
+
+    .container-wrapper {
+        width: 100% !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 614px) {
+    .visit-text {
+        text-align: center;
+    }
+
+    .driving-behavioral {
+        font-size: 20px;
+    }
+}

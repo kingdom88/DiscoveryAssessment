@@ -1,0 +1,73 @@
+@import './variables';
+
+.toolbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: $white;
+    color: $black;
+    font-weight: 600;
+}
+//container
+.container-toolbox {
+    margin: 0 auto;
+    width: 80%;
+
+    .spacer {
+        flex: 1;
+    }
+
+
+    .vl {
+        border-left: 1px solid #f3f3f3;
+        height: 20px;
+    }
+
+    .px-6 {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+//navlinks
+.navbar-nav .nav-link {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 0px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $gray;
+}
+
+
+
+
+.btn-primary {
+    background: #004b8d !important;
+    border: none !important;
+}
+
+.fa-search {
+    color: #629cd5 !important;
+}
+
+span {
+    color: #7a7a7a;
+}
+
+.devicer {
+    width: 78%;
+    display: block;
+    height: 2px;
+    background-color: #fbfbfb;
+    margin: 10px auto 0;
+}
+
+
+@import'./mediaQuery'

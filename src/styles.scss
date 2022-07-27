@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body {
+  overflow-x: hidden !important;
+  
+}
+
+
+.dropdown-divider {
+  height: 0;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  border-top: 1px solid #e2e2e2 !important;
+}
